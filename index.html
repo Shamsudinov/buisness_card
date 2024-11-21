@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlyShams</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header container">
@@ -22,13 +23,13 @@
         </div>
         <div class="promo"> <!-- Блоку promo добавить фоновую картинку(но это не точно) -->
             <div class="promo__contacts">
-                <ul>
-                    <li><a href="#">shamsudinov93@bk.ru</a></li>
-                    <li><a href="#">телеграмм</a></li>
-                    <li><a href="#">вотсап</a></li>
-                    <li><a href="#">вконтакте</a></li>
-                    <li><a href="#">гитхаб</a></li>
-                    <li><a href="#">резюме</a></li>
+                <ul class="contacts-list">
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li class="contacts-list__item"><a href="#" class="contacts-list__link">резюме</a></li>
                 </ul>
             </div>
             <div class="promo__info">
@@ -37,10 +38,59 @@
                     Предлагаю услуги программиста на различных языках программирования. Если надо раскручу и замучу вам че надо в сети. 
                     Сайты, приложения, веб - сервисы и прочий шлак.
                 </p>
+                <button class="promo__btn">Написать мне</button>
             </div>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="section-about">
+            <h2 class="section-title">Краткая информация обо мне</h2>
+        </section>
+        <section class="section-skills">
+            <h2 class="section-title">Тут будет список технологий которыми я владению</h2>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title">Тут будет список услуг которые я могу оказать</h2>
+                <p class="section-desc"></p>
+                <ul class="services-list services__list">
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Вёрстка</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Интеграция верстки в CMS</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Разработка ПО на С++</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Front-end</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Back-end</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Тестирование ПО</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Преподавание</h3>
+                    </li>
+                    <li class="services-list__item">
+                        <h3 class="services-list__title">Поддержка</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-portfolio">
+            <h2 class="section-title">Тут будет портфолио ( список самых интересных и сложных работ )</h2>
+        </section>
+        <section class="section-reviews">
+            <h2 class="section-title">Тут будет блок с отзывами</h2>
+        </section>
+    </main>
+    <footer class="main-footer">
+        Тут будет подвал сайта. 
+        Примерный состав: логотип, основное меню , контакты
+    </footer>
 </body>
 </html>
